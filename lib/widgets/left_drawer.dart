@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:shopping_list/screens/menu.dart';
 import 'package:shopping_list/screens/shoplist_form.dart';
-// TODO: Impor halaman ShopFormPage jika sudah dibuat
 
 class LeftDrawer extends StatelessWidget {
   const LeftDrawer({super.key});
@@ -35,7 +34,6 @@ class LeftDrawer extends StatelessWidget {
                       color: Colors.white,
                       fontWeight: FontWeight.normal,
                     ),
-                      // TODO: Tambahkan gaya teks dengan center alignment, font ukuran 15, warna putih, dan weight biasa(DONE)
                       ),
                 ],
               ),
@@ -58,7 +56,6 @@ class LeftDrawer extends StatelessWidget {
             // Bagian redirection ke ShopFormPage
             onTap: () {
               /*
-              TODO: Buatlah routing ke ShopFormPage di sini,
               setelah halaman ShopFormPage sudah dibuat.
               */
               Navigator.pushReplacement(
