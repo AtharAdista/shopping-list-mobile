@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:shopping_list/screens/shoplist_form.dart';
 
 class ShopItem {
   final String name;
@@ -7,3 +6,4 @@ class ShopItem {
 
   ShopItem(this.name, this.icon);
 }
+
